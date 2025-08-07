@@ -23,3 +23,6 @@ string6= f'Hello Python6\n{string1}' #formated string
 
 print(string6)
 
+#Pentru string-uri putem pune in fata u care nu afecteaza cu absolut nimic
+#putem  pune r care inseamna ca anuleaza efectul caracterrelor speciale precum \n
+#putem pune f pentru s scrie un string in interiorul unui alt string

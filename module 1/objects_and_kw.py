@@ -54,7 +54,7 @@ print(2 * "3")#operatie de multiplicare , afiseaza "3" de 2 ori
 
 #string cu bool
 print(True*"2")
-
+print("-------------------------")
 #DE STUDIAT ASTEA
 print(True and False)
 print('a' and 'b')
