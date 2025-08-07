@@ -1,1 +1,1 @@
-print("tema", end=':)\n')
+print("tema", end=':)\n\n')
