@@ -23,3 +23,4 @@ print(string5)
 
 string6 = f'Hello Python6\n{string1}' # formated string
 print(string6)
+ad
