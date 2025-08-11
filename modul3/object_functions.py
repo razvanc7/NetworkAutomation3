@@ -21,8 +21,18 @@ def multiple_functions(message: str):
         operands[index] = int(number)
     return prod(operands_v2)
 
-list_of_functions = [generic_function, add_function, multiple_functions]
-dict_of_functions = {'*': multiple_functions, '+': add_function, '_': generic_function}
+list_of_functions = [
+    lambda message: str(f'generic function: {message}'),
+    add_function,
+    multiple_functions,
+]
+
+dict_of_functions = {
+    '*': multiple_functions,
+    '+': add_function,
+    '_': lambda message: str(f'generic function: {message}'),
+}
+
 # print([list_of_functions])
 user_message = input('Enter your message: ')
 user_function = input('Enter your function: ')
