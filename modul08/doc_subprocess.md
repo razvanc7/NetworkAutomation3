@@ -1,4 +1,4 @@
-# "Module8: Using the subprocess Module"
+# Module8: Using the subprocess Module
 
 
 ## 1. Introduction
@@ -82,7 +82,7 @@ text to its input and capture the matching output.
 ## 7. Security Considerations
 
 - Avoid using shell=True with untrusted input; it can lead to security vulnerabilities.
-- Always prefer passing commands as lists of arguments.\
+- Always prefer passing commands as lists of arguments.
 - Validate and sanitize any input passed to subprocess.
 
 ## 8. Conclusion
