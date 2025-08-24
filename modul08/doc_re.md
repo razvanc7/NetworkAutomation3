@@ -1,4 +1,4 @@
-# Python Lesson: Regular Expressions with the `re` Module
+# Module8: Regular Expressions with the `re` Module
 
 ## 1. Introduction
 Regular expressions (regex) are a powerful tool for pattern matching and text processing.  

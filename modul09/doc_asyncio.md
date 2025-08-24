@@ -108,6 +108,6 @@ Asynchronous execution makes Python programs more efficient and scalable when ha
 ---
 
 ## 7. References
-- [Python official documentation: asyncio](https://docs.python.org/3/library/asyncio.html)  
-- [Real Python: Async IO in Python](https://realpython.com/async-io-python/)  
-- [aiohttp documentation](https://docs.aiohttp.org/en/stable/)  
+- Python official documentation: [asyncio](https://docs.python.org/3/library/asyncio.html)  
+- Real Python: [Async IO in Python](https://realpython.com/async-io-python/)  
+- Aiohttp documentation: [aiohttp](https://docs.aiohttp.org/en/stable/)  
