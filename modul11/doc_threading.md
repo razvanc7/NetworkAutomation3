@@ -187,4 +187,4 @@ It offers a range of synchronization primitives to coordinate threads safely:
 ## 10. References
 - Python Docs: [threading](https://docs.python.org/3/library/threading.html)  
 - Real Python: [Python Threading](https://realpython.com/intro-to-python-threading/)  
-- SuperFastPython: [Thread Synchronization](https://superfastpython.com/thread-synchronization-in-python/)  
+- Medium: [Semaphores, and Barriers](https://medium.com/@jaklimoff/python-threading-semaphores-and-barriers-e7ff65aa79ad)  

@@ -78,5 +78,5 @@ It is especially useful for programs that need to leverage multiple CPU cores.
 ## 6. References
 
 Python Docs: [multiprocessing](https://docs.python.org/3/library/multiprocessing.html)
-
 Real Central: [Python Multiprocessing for Faster Execution](https://www.pythoncentral.io/python-multiprocessing-for-faster-execution/)
+Geeks For Geeks: [Communication between processes](https://www.geeksforgeeks.org/python/multiprocessing-python-set-2/)
