@@ -57,7 +57,14 @@ class CommonSetup(aetest.CommonSetup):
                         continue
 
                     conn_class = self.tb.devices[device].connections.get('telnet', {}).get('class', None)
-                    assert conn_class, 'No connection for device {device}'
+                    assert conn_class, f'No connection for device {device}'
+
+                    ip = self.tb.devices[device].connections.telnet.ip
+                    port = self.tb.devices[device].connections.telnet.port
+
+                    conn:TelnetConnection = conn_class(ip, port)
+                    conn.connect()
+
 
 
 class ConfigureInterfaces(aetest.Testcase):
