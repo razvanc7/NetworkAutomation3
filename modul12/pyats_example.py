@@ -45,6 +45,21 @@ class CommonSetup(aetest.CommonSetup):
                     subnet = self.tb.devices[device].interfaces[interface].ipv4.network.compressed
                     subprocess.run(['sudo', 'ip', 'route', 'add', f'{subnet}', 'via', f'{gateway}'])
 
+    @aetest.subsection
+    def bring_up_server_interface(self, steps):
+        for device in self.tb.devices:
+            if self.tb.devices[device].type != 'router':
+                continue
+            with steps.start(f'Bring up interface {device}', continue_=True):
+
+                for interface in self.tb.devices[device].interfaces:
+                    if self.tb.devices[device].interfaces[interface].link.name != 'management':
+                        continue
+
+                    conn_class = self.tb.devices[device].connections.get('telnet', {}).get('class', None)
+                    assert conn_class, 'No connection for device {device}'
+
+
 class ConfigureInterfaces(aetest.Testcase):
 
     @aetest.setup
