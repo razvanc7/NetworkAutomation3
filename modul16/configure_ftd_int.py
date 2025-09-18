@@ -96,6 +96,13 @@ class ConnectFTDREST(aetest.Testcase):
                     ).result()
                     print(response)
 
+        with steps.start("Add routes"):
+            pass
+
+        with steps.start("Add allow rule"):
+            pass
+
+
 
 
 if __name__ == '__main__':
