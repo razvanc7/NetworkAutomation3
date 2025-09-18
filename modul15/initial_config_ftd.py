@@ -131,13 +131,13 @@ class ConfigureFDMManagement(aetest.Testcase):
 
 
 
-class ConfigureInterfaces(aetest.Testcase):
-
-    @aetest.setup
-    def configure(self):
-        tb = self.parent.parameters['tb']
-        conn = tb.devices.IOU1.connections.telnet['class']
-        print(conn)
+# class ConfigureInterfaces(aetest.Testcase):
+#
+#     @aetest.setup
+#     def configure(self):
+#         tb = self.parent.parameters['tb']
+#         conn = tb.devices.IOU1.connections.telnet['class']
+#         print(conn)
 
 
 if __name__ == '__main__':
